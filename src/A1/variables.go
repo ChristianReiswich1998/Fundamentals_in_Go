@@ -3,17 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var i int = 10
-	var f float32 = 3.14
-	var tr bool = true
-	var fa bool = false
-	var s string = "hello"
-	var p *int = &i
+	// Create a product variable with value "Coffee"
+	var product = "Coffee"
+	// Create a price variable with value 5
+	var price = 5
 
-	fmt.Println("Int i = ", i)
-	fmt.Println("Float f = ", f)
-	fmt.Println("Boolean true = ", tr)
-	fmt.Println("Boolean false = ", fa)
-	fmt.Println("String = ", s)
-	fmt.Println("Int p = ", p)
+	fmt.Println("Product: ", product)
+	fmt.Println("Price: ", price)
 }
