@@ -8,5 +8,7 @@ func main() {
 	// Store the address of maxRetries in p
 	p := &maxRetries
 
-	fmt.Println(p)
+	fmt.Println(p == &maxRetries)
+	fmt.Println("Value of p: ", p)
+	fmt.Println("Address of p: ", p)
 }
